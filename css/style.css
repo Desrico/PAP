@@ -90,13 +90,9 @@ li {
 }
 
 footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 20px;
   background-color: #461973;
   color: #fff;
-  width: 100%;
 }
 
 footer img {
@@ -136,3 +132,7 @@ footer img {
 /* .address {
   width: 80%;
 } */
+
+.nav-links:hover {
+  color: yellow;
+}
