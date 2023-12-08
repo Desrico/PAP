@@ -51,7 +51,7 @@ ul {
 }
 li {
   display: inline-block;
-  margin: 0 50px 0 50px;
+  margin: 0 70px 0 55px;
 }
 
 .navbar {
@@ -61,7 +61,7 @@ li {
 .nav-links {
   color: var(--white);
   text-decoration: none;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 /* Carousel */
@@ -91,7 +91,7 @@ li {
 
 footer {
   padding: 20px;
-  background-color: #461973;
+  background-color: var(--purple);
   color: #fff;
 }
 
@@ -135,4 +135,65 @@ footer img {
 
 .nav-links:hover {
   color: yellow;
+}
+
+.header-container {
+  padding-bottom: 80px; /* Sesuaikan dengan tinggi footer */
+}
+
+/* Tampilan navbar */
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.nav-links {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links:hover {
+  color: yellow;
+}
+
+/* Tampilan banner */
+.banner {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.banner p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  object-fit: cover;
+  border-radius: 0.25rem;
+}
+
+.activity-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.activity-content {
+  border: 1px solid #dee2e6;
 }

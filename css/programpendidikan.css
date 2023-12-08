@@ -1,0 +1,163 @@
+:root {
+  --black: #000000;
+  --purple: #461973;
+  --primary: #0c356a;
+  --secondary: #0477bf;
+  --white: #ffffff;
+  --title: 30px;
+  --subtitle: 18px;
+  --caption: 14px;
+  --link: 14px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: "Montserrat";
+}
+
+.head img {
+  width: 200px;
+}
+.medsos {
+  width: 25px;
+}
+.search img {
+  width: 25px;
+}
+.icon {
+  gap: 5px;
+}
+
+/* Navbar */
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 50px 0 50px;
+}
+
+.navbar {
+  background-color: var(--purple);
+}
+
+.nav-links {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* Carousel */
+
+.carousel-item > img {
+  width: 100%;
+  height: 100%;
+  height: 80vh;
+}
+
+footer {
+  padding: 20px;
+  background-color: var(--purple);
+  color: #fff;
+}
+
+footer img {
+  max-width: 90px;
+  height: auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 100px;
+  margin-right: 10px;
+}
+
+.contact-info {
+  flex-grow: 1;
+  /* margin-right: 100px; */
+  width: 80%;
+}
+
+.contact-info h2 {
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.contact-info h2,
+.address h3 {
+  margin-bottom: 15px;
+}
+
+/* .address {
+    width: 80%;
+  } */
+
+.nav-links:hover {
+  color: yellow;
+}
+
+.header-container {
+  padding-bottom: 80px; /* Sesuaikan dengan tinggi footer */
+}
+
+/* Tampilan navbar */
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.nav-links {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links:hover {
+  color: yellow;
+}
+
+/* Tampilan banner */
+.banner {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.banner p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  transition: transform 0.3s ease-in-out;
+}
