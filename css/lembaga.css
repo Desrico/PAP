@@ -180,10 +180,9 @@ footer img {
   color: yellow;
 }
 
-/* Tampilan banner */
 .banner {
   background-color: #f1f1f1;
-  padding: 100px;
+  padding: 20px;
 }
 
 .banner p {
@@ -194,4 +193,10 @@ footer img {
 .banner .subtitle {
   font-size: 2.5em;
   margin-bottom: 30px;
+}
+
+.card {
+  max-height: 100px;
+  overflow: hidden;
+  margin-bottom: 15px;
 }

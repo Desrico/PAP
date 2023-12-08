@@ -79,6 +79,7 @@ li {
 }
 .caption {
   font-size: var(--caption);
+  max-height: 200px;
 }
 
 .subtitle {
@@ -138,7 +139,7 @@ footer img {
 }
 
 .header-container {
-  padding-bottom: 80px; /* Sesuaikan dengan tinggi footer */
+  padding-bottom: 80px;
 }
 
 /* Tampilan navbar */
@@ -164,7 +165,6 @@ footer img {
   color: yellow;
 }
 
-/* Tampilan banner */
 .banner {
   background-color: #f1f1f1;
   padding: 20px;

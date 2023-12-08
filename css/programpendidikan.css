@@ -147,7 +147,6 @@ footer img {
   color: yellow;
 }
 
-/* Tampilan banner */
 .banner {
   background-color: #f1f1f1;
   padding: 20px;
@@ -156,8 +155,4 @@ footer img {
 .banner p {
   font-size: 18px;
   margin-bottom: 10px;
-}
-
-.contact-info {
-  transition: transform 0.3s ease-in-out;
 }
